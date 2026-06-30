@@ -1,0 +1,12 @@
+---
+- hosts: web
+  become: yes
+
+  roles:
+    - nginx
+    - php
+    - mariadb
+    - wordpress
+    - phpmyadmin
+    - sftp
+    - ssl

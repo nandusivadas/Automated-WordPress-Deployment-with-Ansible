@@ -1,0 +1,23 @@
+---
+# tasks file for mariadb
+- name: Install MariaDB Server
+  dnf:
+    name:
+      - mariadb105-server
+      - mariadb105
+    state: present
+
+- name: Install pip
+  dnf:
+    name: python3-pip
+    state: present
+
+- name: Install PyMySQL
+  pip:
+    name: PyMySQL
+
+- name: Start and Enable MariaDB
+  service:
+    name: mariadb
+    state: started
+    enabled: yes

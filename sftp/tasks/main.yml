@@ -1,0 +1,15 @@
+---
+# tasks file for sftp
+- name: Create admin user
+  user:
+    name: admin
+    shell: /bin/bash
+    create_home: yes
+    state: present
+
+- name: Set website ownership
+  file:
+    path: /home/admin/personalblog
+    owner: admin
+    group: admin
+    recurse: yes

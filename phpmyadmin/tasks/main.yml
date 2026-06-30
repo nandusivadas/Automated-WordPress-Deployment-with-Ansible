@@ -1,0 +1,28 @@
+---
+# tasks file for phpmyadmin
+
+# phpMyAdmin Download
+- name: Download phpMyAdmin
+  get_url:
+    url: https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
+    dest: /tmp/phpmyadmin.tar.gz
+
+# phpMyAdmin Extraction
+- name: Extract phpMyAdmin
+  unarchive:
+    src: /tmp/phpmyadmin.tar.gz
+    dest: /tmp
+    remote_src: yes
+
+# phpMyAdmin Deployment
+- name: Copy phpMyAdmin Files
+  copy:
+    src: /tmp/phpMyAdmin-5.2.3-all-languages/
+    dest: /home/admin/personalblog/public/phpmyadmin/
+    remote_src: yes
+
+# phpMyAdmin Nginx Configuration
+- name: Create phpMyAdmin Nginx Config
+  file:
+    path: /etc/nginx/conf.d/phpmyadmin.conf
+    state: touch

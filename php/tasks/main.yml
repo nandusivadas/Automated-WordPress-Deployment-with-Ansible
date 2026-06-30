@@ -1,0 +1,18 @@
+---
+# tasks file for php
+- name: Install PHP
+  dnf:
+    name:
+      - php
+      - php-fpm
+      - php-mysqlnd
+      - php-gd
+      - php-mbstring
+      - php-xml
+    state: present
+
+- name: Start PHP-FPM
+  service:
+    name: php-fpm
+    state: started
+    enabled: yes

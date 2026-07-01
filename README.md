@@ -144,13 +144,13 @@ Fully Automated WordPress Website
 
 ## Domain Configuration
 
-![Domain Configuration](screenshots/07-domain-working.png)
+![Domain Configuration](screenshots/13.png)
 
 
 
 ## Final Project Output
 
-![Final Output](screenshots/08-final-blog-homepage.png)
+![Final Output](screenshots/19.png)
 
 
 

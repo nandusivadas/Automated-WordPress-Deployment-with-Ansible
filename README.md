@@ -152,7 +152,7 @@ Fully Automated WordPress Website
 
 ![Final Output](screenshots/19.png)
 
-
+---
 
 # 📚 Documentation
 
@@ -171,6 +171,6 @@ docs/
 
 Cloud & DevOps Enthusiast
 
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
+- LinkedIn: https://www.linkedin.com/in/nandu-sivadas-556264396
 
 ---

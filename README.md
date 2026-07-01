@@ -113,13 +113,17 @@ Fully Automated WordPress Website
 
 ## Project Structure
 
-![Project Structure](screenshots/03.png)
+<p align="center">
+<img src="screenshots/03.png" width="1000">
+</p>
 
 
 
 ## Main Ansible Playbook
 
-![Main Playbook](screenshots/04.png)
+<p align="center">
+<img src="screenshots/04.png" width="1000">
+</p>
 
 
 

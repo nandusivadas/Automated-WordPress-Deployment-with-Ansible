@@ -11,15 +11,15 @@
 
 This project automates the deployment of a secure **WordPress hosting environment** on **AWS EC2 (Amazon Linux 2023)** using **Ansible Roles**. Following the principles of **Infrastructure as Code (IaC)**, the solution automates the installation and configuration of **Nginx**, **PHP**, **MariaDB**, **WordPress**, **phpMyAdmin**, **SFTP**, and **Let's Encrypt SSL**, delivering a secure, consistent, and repeatable deployment process.
 
----
+
 
 # 📖 Architecture
 
 <p align="center">
-<img src="screenshots/architecture.png" width="900">
+<img src="screenshots/00.png" width="900">
 </p>
 
----
+
 
 # ✨ Features
 
@@ -35,7 +35,7 @@ This project automates the deployment of a secure **WordPress hosting environmen
 - 🌍 DuckDNS Domain Integration
 - 🔒 HTTPS using Let's Encrypt SSL
 
----
+
 
 # 🛠 Technologies Used
 
@@ -53,7 +53,7 @@ This project automates the deployment of a secure **WordPress hosting environmen
 | SSL | Certbot & Let's Encrypt |
 | Version Control | Git & GitHub |
 
----
+
 
 # 📂 Project Structure
 
@@ -76,7 +76,7 @@ wordpress-project/
 └── README.md
 ```
 
----
+
 
 # ⚙️ Deployment Workflow
 
@@ -101,57 +101,58 @@ Ansible Roles
 Fully Automated WordPress Website
 ```
 
----
+
 
 # 📷 Project Screenshots
 
 ## AWS EC2 Infrastructure
 
-![AWS EC2](screenshots/01-aws-ec2-instance.png)
+![AWS EC2](screenshots/01.png)
 
----
+
 
 ## Project Structure
 
-![Project Structure](screenshots/02-project-structure.png)
+![Project Structure](screenshots/03.png)
 
----
+
 
 ## Main Ansible Playbook
 
-![Main Playbook](screenshots/03-main-playbook.png)
+![Main Playbook](screenshots/04.png)
 
----
+
 
 ## Nginx Role Execution
 
-![Nginx Role](screenshots/04-nginx-role-execution.png)
+![Nginx Role](screenshots/05.png)
 
----
+
 
 ## WordPress Installation Wizard
 
-![WordPress Installation](screenshots/05-wordpress-installation.png)
+![WordPress Installation](screenshots/09.png)
 
----
+![WordPress Installation](screenshots/10.png)
+
 
 ## WordPress Dashboard
 
-![WordPress Dashboard](screenshots/06-wordpress-dashboard.png)
+![WordPress Dashboard](screenshots/11.png)
 
----
+
 
 ## Domain Configuration
 
 ![Domain Configuration](screenshots/07-domain-working.png)
 
----
+
 
 ## Final Project Output
 
 ![Final Output](screenshots/08-final-blog-homepage.png)
 
----
+
 
 # 📚 Documentation
 
@@ -162,7 +163,7 @@ docs/
 └── Automated-WordPress-Deployment-with-Ansible.pdf
 ```
 
----
+
 
 # 👨‍💻 Author
 
@@ -170,9 +171,6 @@ docs/
 
 Cloud & DevOps Enthusiast
 
-- GitHub: https://github.com/nandusivadas
 - LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
 
 ---
-
-⭐ **If you found this project helpful, please consider giving it a Star!**

@@ -1,4 +1,4 @@
-# 🚀 Automated WordPress Deployment with Ansible on AWS EC2 (Linux)
+#  Automated WordPress Deployment with Ansible on AWS EC2 (Linux)
 
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange)
 ![Ansible](https://img.shields.io/badge/Ansible-Automation-red)
@@ -7,7 +7,7 @@
 ![WordPress](https://img.shields.io/badge/WordPress-CMS-blue)
 ![MariaDB](https://img.shields.io/badge/MariaDB-Database-brown)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project automates the deployment of a secure **WordPress hosting environment** on **AWS EC2 (Amazon Linux 2023)** using **Ansible Roles**. Following the principles of **Infrastructure as Code (IaC)**, the solution automates the installation and configuration of **Nginx**, **PHP**, **MariaDB**, **WordPress**, **phpMyAdmin**, **SFTP**, and **Let's Encrypt SSL**, delivering a secure, consistent, and repeatable deployment process.
 

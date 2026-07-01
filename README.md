@@ -1,0 +1,178 @@
+# 🚀 Automated WordPress Deployment with Ansible on AWS EC2 (Linux)
+
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Ansible](https://img.shields.io/badge/Ansible-Automation-red)
+![Linux](https://img.shields.io/badge/Linux-Amazon%20Linux-blue)
+![Nginx](https://img.shields.io/badge/Nginx-Web%20Server-green)
+![WordPress](https://img.shields.io/badge/WordPress-CMS-blue)
+![MariaDB](https://img.shields.io/badge/MariaDB-Database-brown)
+
+## 📌 Project Overview
+
+This project automates the deployment of a secure **WordPress hosting environment** on **AWS EC2 (Amazon Linux 2023)** using **Ansible Roles**. Following the principles of **Infrastructure as Code (IaC)**, the solution automates the installation and configuration of **Nginx**, **PHP**, **MariaDB**, **WordPress**, **phpMyAdmin**, **SFTP**, and **Let's Encrypt SSL**, delivering a secure, consistent, and repeatable deployment process.
+
+---
+
+# 📖 Architecture
+
+<p align="center">
+<img src="screenshots/architecture.png" width="900">
+</p>
+
+---
+
+# ✨ Features
+
+- 🚀 Infrastructure as Code (IaC)
+- ⚙️ Automated WordPress Deployment
+- 📦 Modular Ansible Role-Based Architecture
+- 🌐 Nginx Web Server Configuration
+- 🐘 PHP Installation & Configuration
+- 🗄️ MariaDB Database Setup
+- 📝 WordPress Deployment
+- 💻 phpMyAdmin Integration
+- 🔐 Secure SFTP Configuration
+- 🌍 DuckDNS Domain Integration
+- 🔒 HTTPS using Let's Encrypt SSL
+
+---
+
+# 🛠 Technologies Used
+
+| Category | Technology |
+|-----------|------------|
+| Cloud Platform | AWS EC2 |
+| Operating System | Amazon Linux 2023 |
+| Automation | Ansible |
+| Web Server | Nginx |
+| Database | MariaDB |
+| CMS | WordPress |
+| Programming Language | PHP |
+| Database Tool | phpMyAdmin |
+| Secure File Transfer | OpenSSH (SFTP) |
+| SSL | Certbot & Let's Encrypt |
+| Version Control | Git & GitHub |
+
+---
+
+# 📂 Project Structure
+
+```text
+wordpress-project/
+├── ansible.cfg
+├── inventory
+├── site.yml
+├── roles/
+│   ├── nginx/
+│   ├── php/
+│   ├── mariadb/
+│   ├── wordpress/
+│   ├── phpmyadmin/
+│   ├── sftp/
+│   └── ssl/
+├── docs/
+│   └── Automated-WordPress-Deployment-with-Ansible.pdf
+├── screenshots/
+└── README.md
+```
+
+---
+
+# ⚙️ Deployment Workflow
+
+```text
+AWS EC2
+    │
+    ▼
+Ansible Playbook
+    │
+    ▼
+Ansible Roles
+    │
+    ├── Nginx
+    ├── PHP
+    ├── MariaDB
+    ├── WordPress
+    ├── phpMyAdmin
+    ├── SFTP
+    └── SSL
+    │
+    ▼
+Fully Automated WordPress Website
+```
+
+---
+
+# 📷 Project Screenshots
+
+## AWS EC2 Infrastructure
+
+![AWS EC2](screenshots/01-aws-ec2-instance.png)
+
+---
+
+## Project Structure
+
+![Project Structure](screenshots/02-project-structure.png)
+
+---
+
+## Main Ansible Playbook
+
+![Main Playbook](screenshots/03-main-playbook.png)
+
+---
+
+## Nginx Role Execution
+
+![Nginx Role](screenshots/04-nginx-role-execution.png)
+
+---
+
+## WordPress Installation Wizard
+
+![WordPress Installation](screenshots/05-wordpress-installation.png)
+
+---
+
+## WordPress Dashboard
+
+![WordPress Dashboard](screenshots/06-wordpress-dashboard.png)
+
+---
+
+## Domain Configuration
+
+![Domain Configuration](screenshots/07-domain-working.png)
+
+---
+
+## Final Project Output
+
+![Final Output](screenshots/08-final-blog-homepage.png)
+
+---
+
+# 📚 Documentation
+
+Complete project documentation is available in the **docs** directory.
+
+```text
+docs/
+└── Automated-WordPress-Deployment-with-Ansible.pdf
+```
+
+---
+
+# 👨‍💻 Author
+
+**Nandu Sivadas**
+
+Cloud & DevOps Enthusiast
+
+- GitHub: https://github.com/nandusivadas
+- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
+
+---
+
+⭐ **If you found this project helpful, please consider giving it a Star!**
